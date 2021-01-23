@@ -9,4 +9,8 @@ public class Stickers extends HatDecorator{
     private void setUniqueHat(HeadWear uniqueHat){
         System.out.println("Add stickers to the hat");
     }
+    public double cost(){
+        return uniqueHat.cost() + 1.00;
+    }
+
 }

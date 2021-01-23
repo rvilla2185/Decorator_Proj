@@ -9,4 +9,7 @@ public class Logo extends HatDecorator{
     private void setUniqueHat(HeadWear uniqueHat){
         System.out.println("Add a logo to the hat");
     }
+    public double cost(){
+        return uniqueHat.cost() + 6.00;
+    }
 }

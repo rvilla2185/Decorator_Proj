@@ -7,7 +7,12 @@ public class HatDemoDriver {
         hardHat = new Stickers(hardHat);
         hardHat = new Logo(hardHat);
 
+        beanie.hatType();
+        System.out.println("The cost of this hat is "+ beanie.cost()+"\n");
         baseBallCap.hatType();
+        System.out.println("The cost of this hat is "+ baseBallCap.cost()+"\n");
         hardHat.hatType();
+        System.out.println("The cost of this hat is "+ hardHat.cost()+"\n");
+
     }
 }
